@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Booking website</title>
+</head>
+<body>
+    <div >
+        <h2 style="text-align: center;"> TICKET BOOKING FORM</h2>
+    </div>
+    <div >
+        <form method="post" >
+            <table border="1"  cellpading="15" cellspacing="20" align="center" bgcolor="gray">
+                <tr bgcolor="black">
+                    <td colspan="2" align="center" style="color: rgb(255, 0, 0);"><h3> Passenger Information </h3></td>
+                </tr>
+                <tr>
+                    <td> First Name</td>
+                    <td> <input class="firstname" type="text" placeholder="Firstname" /> </td>
+                </tr>
+                <tr>
+                    <td> Last Name</td>
+                    <td> <input class="lastname" type="text" placeholder="Lastname "/> </td>
+                </tr>
+                <tr>
+                    <td>Mobile number</td>
+                    <td> <input class="number" type="number" placeholder="Mobile number" maxlength="13"/> </td>
+                </tr>
+                <tr>
+                    <td>Email Address</td>
+                    <td> <input class="mail" type="email" placeholder="E-mail"/> </td>
+                </tr>
+                <tr>
+                    <td> Gender</td>
+                    <td> 
+                        <input type="radio" />Male
+                        <input type="radio" />Female
+                        <input type="radio" />Trangenter    
+                    </td>
+                </tr>
+                <tr>
+                    <td> Age</td>
+                    <td> <input class="age" type="number" placeholder="Age" maxlength="2" /> </td>
+                </tr>
+                <tr bgcolor="black">
+                    <td colspan="2" align="center" style="color: rgb(255, 0, 0);" ><h3> Travel Details </h3></td>
+                </tr>
+                <tr>
+                    <td>Depature date</td>
+                    <td><input  type="date" placeholder="date"/></td>
+                </tr>
+                <tr>
+                    <td>
+                        From
+                    </td>
+                    <td>
+                        <select>
+                            <option> </option>
+                            <option> Chennai</option>
+                            <option> Delhi</option>
+                            <option> Mumbai</option>
+                            <option> Kolkata</option>
+                        </select>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        To
+                    </td>
+                    <td>
+                        <select>
+                            <option> </option>
+                            <option> Chennai</option>
+                            <option> Delhi</option>
+                            <option> Mumbai</option>
+                            <option> Kolkata</option>
+                        </select>
+                    </td>
+                </tr>
+                <tr bgcolor="black">
+                    <td colspan="2" align="center" >
+                        <input type="submit" placeholder="Submit"/>
+                    </td>
+                </tr>
+            </table>
+        </form>
+    </div>
+</body>
+</html>
